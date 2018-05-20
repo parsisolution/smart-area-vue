@@ -1,0 +1,28 @@
+.sa-container {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    transform: translateZ(0);
+    z-index: 1000 !important;
+}
+
+.sa-dropdown {
+    position: absolute;
+    min-width: 100px;
+    text-align: left;
+    z-index: 4;
+}
+
+.sa-dropdown .dropdown-menu {
+    display: block;
+}
+
+.sa-dropdown a {
+    padding: 2px 6px;
+    font-size: 0.9em;
+}
+
+.sa-dropdown a.active, .sa-dropdown a:active {
+    background-color: #4497de;
+    color: #fff;
+}

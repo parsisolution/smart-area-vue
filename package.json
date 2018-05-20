@@ -1,0 +1,57 @@
+{
+  "name": "smart-area-vue",
+  "version": "1.0.0",
+  "description": "Autocomplete, dropdowns, mentions and other goodies to html textareas",
+  "main": "dist/smart-area-vue.js",
+  "files": [
+    "src",
+    "dist",
+    "smart-area.js",
+    "smart-input.js"
+  ],
+  "scripts": {
+    "build": "webpack --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsisolution/smart-area-vue.git"
+  },
+  "keywords": [
+    "Autocomplete",
+    "Dropdown",
+    "Mention",
+    "Suggest",
+    "Highlight",
+    "Textarea",
+    "Input",
+    "Component",
+    "Vue",
+    "VueJS",
+    "Vue2",
+    "CSS"
+  ],
+  "author": "Hamed Ehtesham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parsisolution/smart-area-vue/issues"
+  },
+  "homepage": "https://github.com/parsisolution/smart-area-vue#readme",
+  "dependencies": {
+    "autocomplete2": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "*",
+    "style-loader": "^0.21.0",
+    "template-banner-webpack-plugin": "^1.1.2",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "vue-loader": "^13.7.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.2"
+  }
+}
